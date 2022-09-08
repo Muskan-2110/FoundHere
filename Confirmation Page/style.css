@@ -1,0 +1,31 @@
+header img {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+header .text {
+    margin-top: 5px;
+    font-size: 1.75rem;
+    font-weight: bolder;
+    font-family: 'pacifico';
+
+}
+
+header .text span {
+    font-size: 2rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-weight: bolder;
+    font-family: 'Baloo 2';
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+p {
+    text-align: center;
+}

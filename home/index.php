@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoundHERE</title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="flex left">
+                <img src=".\images\logo.png" alt="">
+            </div>
+            <nav class="flex left">
+                <a href="#home">HOME</a>
+                <a href="#HowItWorks">How It Works</a>
+                <a href="#about">ABOUT US</a>
+                <a href="#contact">CONTACT US</a>
+            </nav>
+            <div class="right">
+
+             <a href="../profile page/index.php">  <button class="btn" type="button">
+                    PROFILE
+                </button></a> 
+            </div>
+        </div>
+    </header>
+
+    <!-- **********HOME********* -->
+
+    <section id="home">
+        <div class="home-container">
+            <br><br><br><br><br><br><br>
+            <h1 class="homeName"><span>Found</span> HERE</h1>
+            <p class=" homeP">The perfect place to find your losses...</p>
+        </div>
+    </section>
+    <!-- *********HOW IT WORKS********* -->
+    <section class="HowItWorks" id="HowItWorks">
+        <div class="hiw-head">
+            <h1> How are we going to serve?? </h1>
+
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <h2 class="java"></h2>
+                        <p class="java">If You lost or found something you are at the right place.</p>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <h2>Lost/Found Something</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <h2 class="python">FoundHERE</h2>
+                        <p class="python">
+                            1. Register with US. <br>
+                            2. Create a new post. <br>
+                            3. Locate your belongings.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <img src="./images/logo.png" height="50px" width="50px" alt="">
+                    <br>
+                    <h2>FoundHERE</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <span class="stars"></span>
+                        <h2 class="cSharp">Found It</h2>
+                        <p class="cSharp">
+                            If we are able to find your item, we'll contact you soon through our chatbot. Where you can
+                            talk to the repective person.
+                        </p>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <h2>Yeah... found Your <br> belongings</h2>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1>Why FoundHERE?</h1>
+        <h5>Loss sucks; it’s painful for the individual and far too challenging, plus it’s a
+            massively common problem.<br>
+            Yet, the Lost and Found process hasn’t had a decent update in ages. So we’re trying to change that. </h5>
+        <div class="cards">
+            <div class="card">
+                <h2 class="card-title">Muskan Rani</h2>
+                <hr>
+                <img class="card-desc" src="./images/muskan.jpg" alt="">
+                <p class="card-desc1">
+                    I am frontend developer for this project, who took care of all the designing.
+                </p>
+            </div>
+            <div class="card">
+                <h2 class="card-title">Farman Malik</h2>
+                <hr>
+                <img class="card-desc" src="./images/farman1.jpg" alt="">
+                <p class="card-desc1">
+                    I am frontend developer for this project, who designed chatbot.
+                </p>
+            </div>
+            <div class="card">
+                <h2 class="card-title">Suraj Verma</h2>
+                <hr>
+                <img class="card-desc" src="./images/suraj.jpg" alt="">
+                <p class="card-desc1">I am the backend developerfor this project. Who manages features on the
+                    server-side and server. </p>
+            </div>
+            <div class="card">
+                <h2 class="card-title">Anand Joshi</h2>
+                <hr>
+                <img class="card-desc"
+                    src="https://images.unsplash.com/photo-1534251369789-5067c8b8602a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                    alt="">
+                <p class="card-desc1">I am the database manager for this project.</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
